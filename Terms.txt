@@ -1,0 +1,17 @@
+CAD/CAM - computer assisted design/manufacturing
+GUI - graphical user interface
+IDE - interactive development enviroment
+// - comment 
+<< - enter into the function
+cout - function to print 
+executable - file that runs a program (main part of the program)
+header - file that has information related to the excecutable
+linker - file that connects all machine translated file into one
+decrement - --
+increment - ++
+narrowing - when you try to put large type into a small one
+object - real world entity
+operator - a symbol that operates on a value or a variable
+type safety - types act according to their rules
+
+

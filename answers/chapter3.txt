@@ -1,0 +1,29 @@
+1.prompt - asking for input 
+2.asking for variable - cin >>
+3.cout << "please enter variable";
+cin >> number;
+4.\n - newline, creates newline
+5.whitespace - terminates input into string
+6.any non-numeric symbol - terminates input into integer
+7.cout << " hello, " << first_name << "!\n";
+8.object - is real entity
+9.literal - data, used to represent fixed values
+10.int,char,float,string,bool
+11.variable is a data type with an undefined value
+12.char-1,int-4,double-8
+13.bytes
+14.= - gives value, == - checks equality
+15.a set value to a data type
+16.initializing - giving initial value, 
+assigniment - assigning value
+17.concatenation-combining strings ( x + y = z)=("a"+"b"="ab")
+18.spaces,symbols,all caps are not ok in names
+19.ALL CAPS, similalry named variables-x1,x2, names starting with _ 
+are legal but not recomended.
+20.all lowercase, simple short names, that can be understood by anyone
+21.a program is typesafe , when all parts are used according to their type, 
+otherwise hardware/software errors can occurs
+22.conversion from double to int can be bad because double takes up more
+space than int, that can cause memory errors
+23.if the type x1 <= x2 requires an equal or less ammount of space than
+the new one it is safe to convert  
