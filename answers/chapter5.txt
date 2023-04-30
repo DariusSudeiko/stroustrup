@@ -1,0 +1,38 @@
+1.4 major types of errors - compile time, link time, run-time , logic.
+compile time - errors compiler finds
+link time - errors found by linker when its trying to combine object files into an excecutible
+run-time - errors found by checks in a running program
+logic- erros found by the programmer
+2.memory leaks can be ignored in student programs
+3.completed project should - produce desired result , using legal inputs. Should give error messages, 
+doesnt worry about misbehaving software and hardware , is allowed to terminate after finding an error
+4.aproaches to produce acceptable software -- orgranize software, debugging and testing, making sure the remaining errors are not serious.
+5.debugging takes a long time
+6.syntax error is mispeling, couut, ciin , vectooor
+7.type error is when data is used with the incorrect data type
+8.linker errors occur when objects files are not able to combine into an excecutable, this can happen for example if we dont include a header file
+9.logic errors are errors made by programer, errors unrecognizable to machine
+10.poor specification, incomplete program, unexpected argument, unexpected input, unexpected state, bad logic
+11.to know that the result is plausible a good technique is estimation
+12.humans find out , machine assumes 
+13.throwing exception is better than returning error value is better because we know what went wrong
+14.to test if an input operation is succesfull , we print the result, and compare it to our estimation
+15.the way exceptions are thrown is by creating an object with the exception and throwing it for others to catch
+when a function catches an exception it can do something , for example print error message
+16.since we start counting arrays from zero, vector v[v.size()] is one member too many , v[v.size()-1] will work
+17.pre-condition is a condintion at the begining of the function, something has to be true/false or else stop
+post condition is the return value in case everything worked,
+for(int i=0;i<v.size();++i)
+{
+return 0;
+}
+if v.size() is less then i we stop
+return 0; if everything worked
+18.we dont test a pre condintion if we are absolutely sure that nobody will give bad arguments or if checking will slow down the program, or if it is too complicated to check
+19.we dont test a post condition if we are sure that everything will go as planned
+20.to debug
+1.get the program to compile
+2.get the program to link
+3.get the program to do what it is supposed to do
+21.commenting help with debugging, because we then know what each part of a program is supposed to do
+22.testing sees if there are errors , debugging fixes the errors

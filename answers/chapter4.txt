@@ -1,0 +1,36 @@
+1.A computation is creating an output from an input
+2.user inputted data , char , int, machine outputted data
+3.initialize, meaningful names, understand the compiler doesn't see human errors, don`t overuse parenthesis
+4.An expression computes a value from a number of operands
+5.statement is assigning value, expression is computing it
+6.An lvalue has an address that your program can access, like variable names, constants, arrays, 
+function calls that return an lvalue reference, bit fields, unions, and class members. 
+Math computations require an lvalue because they return a modifiable value, other operators don't.
+require it because they return a bool value.
+7.A constant expression that can be evaluated at compile time 
+8.A literal is data representing real values
+9.symbolic constant is a fixed expression , we use them to make the code more readable, by defining expressions.
+10.magic constants are non obvious literals.
+11.*,+,-,* all can be used by operators
+12.modulus cannot be used on float numbers
+13.+,-, == can be used for strings.
+14.when you have one variable input , and multiple checks. Switch is preferable to if.
+15.switch only works with integer, char or enumeration type, value in case label must be constant,
+you cannot use the same vvalue for two case labels, you can use several case labels for a single case.
+16.for loop header line, first you initialize a value, then offer a certain check to that value, finally you modify that value
+17.for loop when we know how long the loop should be executed, while to read a file into a variable, asking for user input, the increment is non standart.
+18.to print numeric value of char, you assign an int value to it
+19.char foo(int x) returns char type variable foo , while taking int x as a parameter
+20.The function is long, function is used more than once , improves readability
+21.i can read int into char , i cant read string into char, i can put int in a switch
+22. you can concatenate string but not int
+23. index of third element of vector is 2
+24.to print every element of vector, 
+for (i=0;i<n;++i)
+cout << vector[i]
+25.vector<char>alphabet(26) contains a vector of 26 chars.
+26.push_back(i) puts i into vector
+27.begin() returns point to the first container of a vector, end() points to the last+1 element in a vector
+28.vectors popular and usefull because they are dynamic , they can store data , functions. 
+29.to sort the elements of a vector c++ std_lib offers a function called sort()
+
